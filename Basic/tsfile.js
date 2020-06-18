@@ -18,34 +18,10 @@ class Worker extends Person {
         this.salary = salary;
         this.jobLocation = jobLocation;
     }
+    ;
     whoAreYou() {
         return `${super.name()} I get ${this.salary} every month, and I work in ${this.jobLocation}`;
     }
 }
 let worker1 = new Worker("Mario", "28", "doctor", "2.000", "CodeFactory");
 console.log(worker1.whoAreYou());
-{
-    "compilerOptions";
-    {
-        "target";
-        "es5",
-            "module";
-        "commonjs",
-            "declaration";
-        false,
-            "noImplicitAny";
-        false,
-            "removeComments";
-        true,
-            "noLib";
-        false,
-            "emitDecoratorMetadata";
-        true,
-            "experimentalDecorators";
-        true;
-    }
-    "exclude";
-    [
-        "node_modules"
-    ];
-}
